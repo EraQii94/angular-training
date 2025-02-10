@@ -15,7 +15,6 @@ export class SalesPersonListComponent {
     new SalesPerson("Laura", "Smith", "laura.smith@gmail.com", 40000),
     new SalesPerson("David", "Martin", "david.martin@gmail.com", 45000),
     new SalesPerson("Susan", "Johnson", "susan.johnson@gmail.com", 60000)
-
   ];
 
   constructor() { }
