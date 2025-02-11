@@ -10,14 +10,17 @@ import { SalesPerson } from './sales-person';
 export class SalesPersonListComponent {
 
 
-  salesPersonList: any[] = [
-    new SalesPerson("James", "King", "james.King@gmail.com", 50000),
-    new SalesPerson("Laura", "Smith", "laura.smith@gmail.com", 40000),
-    new SalesPerson("David", "Martin", "david.martin@gmail.com", 45000),
-    new SalesPerson("Susan", "Johnson", "susan.johnson@gmail.com", 60000)
+  //create an array of sales person objects
+  salesPersonList: SalesPerson[] = [
+    new SalesPerson("James", "Bond", "james.bond@gmail.com", 1000),
+    new SalesPerson("Ethan", "Hunt", "ethan.hunt@gmail.com", 2000),
+    new SalesPerson("Jack", "Ryan", "jack.ryan@gmail.com", 3000),
+    new SalesPerson("Jason", "Bourne", "jason.bourne@gmail.com", 4000)
   ];
+    
 
   constructor() { }
 
-  ngOnInit(){}
+  ngOnInit(): void {}
+
 }
